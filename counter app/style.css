@@ -1,0 +1,40 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(138, 138, 226);
+}
+.container{
+    width: 350px;
+    height: 200px;
+    background-color: rgb(127, 253, 0);
+    text-align: center;
+    border-radius: 10px;
+}
+.app-name{
+    width: 100%;
+    font-size: 20px;
+}
+.buttons-container{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.buttons{
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.substract{
+    background-color: #ebebe9;
+}
+.reset{
+    color: black;
+    background-color: rgb(226, 84, 84);
+}
+.add{
+    background-color: rgb(142, 142, 235);
+}
